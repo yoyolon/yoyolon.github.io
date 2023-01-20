@@ -1,0 +1,84 @@
+baseURL: "https://yoyolon.github.io"
+title: yoyo
+languageCode: "ja"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: "production"
+  title: "My homepage"
+  description: "This is homepage of mine"
+  author: "yoyo"
+  # images: "path"
+  keywords: [Blog, Portfolio, PaperMod]
+  languageAltTitle: "English"
+  ShowShareButtons: false
+  ShowCodeCopyButtons: false
+  ShowFullTextinRSS: false
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  disableAnchoredHeadings: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShareButtons: ["twitter"]
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  comments: false
+  hideFooter: false
+  CanonicalLinkText: false
+
+  profileMode:
+      enabled: true
+      title: "<Title>" # optional default will be site title
+      subtitle: "大学院でコンピューターグラフィックスの勉強をしています．"
+      imageUrl: "/icon.png" # optional
+      imageWidth: 300 # custom size
+      imageHeight: 300 # custom size
+      buttons:
+          - name: Profile
+            url: "profile"      
+          - name: Works
+            url: "works"
+          # - name: Archives
+          #   url: "archives"
+        
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/yoyolon"
+    
+menu:
+  main:
+    - identifier: profile
+      name: profile
+      url: /profile/
+      weight: 10
+    - identifier: works
+      name: works
+      url: /works/
+      weight: 10      
+    # - identifier: archives
+    #   name: archives
+    #   url: /archives/
+    #   weight: 30
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 40
