@@ -4,7 +4,7 @@ date: 2023-01-21T01:43:04+09:00
 draft: false
 ---
 
-これまでに個人開発した作品をご紹介いたします．
+これまでに個人開発した作品をご紹介します．
 
 ## ソフトウェア
 
@@ -14,6 +14,11 @@ draft: false
   - C++で開発したパストレーサー．
   - 物理ベースレンダリングを理解するために開発しました．
   - NEEやMISなどのモンテカルロ推定の分散低減手法も実装しています．
+
+- [thinfilm_visualizer](https://github.com/yoyolon/thinfilm_visualizer)
+  - Pythonで開発した薄膜干渉可視化ツール
+  - 研究で扱っている薄膜干渉現象を簡単に可視化するために開発しました．
+  - Tkinterを利用しているため，GUIによる直感的な操作が可能です．
 
 - [py_raytracing](https://github.com/yoyolon/py_raytracing)
   - Pythonで開発した非常にシンプルなレイトレーサー(130行程度)．
