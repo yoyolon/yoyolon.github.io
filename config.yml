@@ -47,13 +47,13 @@ params:
   profileMode:
       enabled: true
       title: "<Title>" # optional default will be site title
-      subtitle: "大学院でコンピューターグラフィックスの勉強をしています．"
+      subtitle: "大学院でコンピュータグラフィックスの勉強をしています．"
       imageUrl: "/icon.png" # optional
       imageWidth: 300 # custom size
       imageHeight: 300 # custom size
       buttons:
           - name: Profile
-            url: "profile"      
+            url: "profile"
           - name: Works
             url: "works"
           # - name: Archives
@@ -73,7 +73,7 @@ menu:
     - identifier: works
       name: works
       url: /works/
-      weight: 10      
+      weight: 10
     # - identifier: archives
     #   name: archives
     #   url: /archives/
